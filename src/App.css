@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+ul{
+  width: 10%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
