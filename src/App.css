@@ -2,17 +2,26 @@
   text-align: center;
 }
 
-ul{
-  width: 10%;
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: rgb(48, 53, 54);
 }
 
+
+ul{
+  color: white;
+  padding: 5px 10px 5px 10px;
+  width: 15%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
+}
+
+.NavTextColor{
+  color: white;
+  text-decoration: none;
+}

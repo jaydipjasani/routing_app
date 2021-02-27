@@ -1,15 +1,22 @@
 import React, { Component } from 'react'
 import "./App.css";
+import { Link } from 'react-router-dom';
 
 export default class Navigation extends Component {
     render() {
         return (
             <div>
                 <nav>
-                    <h1>LOGO</h1>
+                    <Link className="NavTextColor" to="Home">
+                        <h1>LOGO</h1>
+                    </Link>
                     <ul>
-                        <li>About</li>
-                        <li>Product</li>
+                        <Link className="NavTextColor" to="/About">
+                            <li>About</li>
+                        </Link>
+                        <Link className="NavTextColor" to="/Products">
+                            <li>Product</li>
+                        </Link>
                     </ul>
                 </nav>
             </div>
