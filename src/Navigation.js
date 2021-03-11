@@ -11,12 +11,13 @@ export default class Navigation extends Component {
                         <h1>LOGO</h1>
                     </Link>
                     <ul>
-                        <Link className="NavTextColor" to="/About">
-                            <li>About</li>
-                        </Link>
                         <Link className="NavTextColor" to="/Products">
                             <li>Product</li>
                         </Link>
+                        <Link className="NavTextColor" to="/About">
+                            <li>About</li>
+                        </Link>
+
                     </ul>
                 </nav>
             </div>

@@ -14,16 +14,15 @@ export default function Products() {
         const data = await fetch("https://fortnite-api.theapinetwork.com/upcoming/get");
         const items = await data.json();
         setItems(items)
-        console.log(items);
     }
-    
+
     return (
         <div>
             {item && item.data.map(value => {
                 return <h2 key={value.itemId}>
                     <Link to={`/products/${value.itemId}`}>
-                    {value.item.name}</Link></h2>
-            }) }
+                        {value.item.name}</Link></h2>
+            })}
         </div>
     )
 }
